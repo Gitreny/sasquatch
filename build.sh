@@ -21,7 +21,7 @@ cd $(dirname `readlink  -f $0`)
 # Download squashfs4.4.tar.gz if it does not already exist
 if [ ! -e squashfs4.4.tar.gz ]
 then
-    wget https://downloads.sourceforge.net/project/squashfs/squashfs/squashfs4.4/squashfs4.4.tar.gz/download
+    wget https://sourceforge.net/projects/squashfs/files/squashfs/squashfs4.4/download
 fi
 
 # Remove any previous squashfs4.4 directory to ensure a clean patch/build
